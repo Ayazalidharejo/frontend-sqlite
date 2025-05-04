@@ -140,11 +140,11 @@ function EventList() {
                 />
               </div>
 
-              {event.tickets && event.tickets.length > 0 && (
+              {/* {event.tickets && event.tickets.length > 0 && (
                 <p className="event-price">
                   From £{Math.min(...event.tickets.map(ticket => ticket.price))}
                 </p>
-              )}
+              )} */}
 
               <Link to={`/events/${event.id}`} className="btn-secondary">
                 View Details
