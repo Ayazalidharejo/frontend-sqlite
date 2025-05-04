@@ -1,4 +1,4 @@
-// App.css - Basic styling
+
 .app-container {
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
   width: 100%;
 }
 
-/* Navbar Styles */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -59,7 +59,7 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* Footer Styles */
+
 .footer {
   padding: 20px;
   text-align: center;
@@ -68,7 +68,7 @@
   margin-top: 30px;
 }
 
-/* Button Styles */
+
 .btn-primary {
   background-color: #3498db;
   color: white;
@@ -117,7 +117,7 @@
   font-size: 0.8rem;
 }
 
-/* Form Styles */
+
 .form-group {
   margin-bottom: 15px;
 }
@@ -161,7 +161,7 @@
   color: #7f8c8d;
 }
 
-/* Event List Styles */
+
 .event-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -187,7 +187,7 @@
   margin: 5px 0;
 }
 
-/* Event Detail Styles */
+
 .event-detail-container {
   background-color: #fff;
   border-radius: 8px;
@@ -213,7 +213,7 @@
   background-color: #f9f9f9;
 }
 
-/* Booking Styles */
+
 .booking-list {
   display: grid;
   grid-template-columns: 1fr;
@@ -240,7 +240,7 @@
   color: #e74c3c;
 }
 
-/* Admin Dashboard Styles */
+
 .dashboard-stats {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -283,7 +283,7 @@
   background-color: #f1f1f1;
 }
 
-/* Tables */
+
 .user-table-container,
 .booking-table-container {
   overflow-x: auto;
@@ -310,7 +310,7 @@ tr:hover {
   background-color: #f5f5f5;
 }
 
-/* Event Form */
+
 .ticket-form-item {
   border: 1px solid #ddd;
   padding: 15px;
@@ -330,7 +330,7 @@ tr:hover {
   margin-top: 20px;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
   .event-grid,
   .ticket-list,
