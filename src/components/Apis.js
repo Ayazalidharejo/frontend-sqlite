@@ -1,5 +1,6 @@
 // api.js - API service functions
-const API_URL='http://localhost:5000';
+// const API_URL='http://localhost:5000';
+const API_URL='https://backend-with-sqlite.vercel.app';
 
 // Helper function for requests
 async function fetchWithAuth(endpoint, options = {}) {
